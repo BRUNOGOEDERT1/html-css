@@ -90,9 +90,8 @@ section#img02 {
     background-image: url('../imagens/background002.jpg');
 }
 
-section
 footer {
-    background-color: rgb(7, 7, 7);
+    background-color: black;
     color: white;
     text-align: center;
 
