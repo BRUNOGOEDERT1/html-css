@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <Style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table {
+            
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td,th {
+            border: 1px solid black;
+        }
+
+        thead, tfoot {
+            text-align: center;
+            background-color: gray;
+            color: white;
+        }
+
+        .posicao {
+            text-align: center;
+
+        }
+
+        .populacao {
+            text-align: right;
+
+        }
+        
+    </Style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <td><strong>Posição</strong></td>
+                <td><strong>Unidade Federativa</strong></td>
+                <td><strong>População</strong></td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posicao">1</td>
+                <td>São Paulo</td>
+                <td class="populacao">44 420 459</td>
+            </tr>
+            <tr>
+                <td class="posicao">2</td>
+                <td>Minas Gerais</td>
+                <td class="populacao">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="posicao">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="populacao">16 054 524</td>
+            </tr>
+            <tr>
+                <td class="posicao">4</td>
+                <td>Bahia</td>
+                <td class="populacao">14 136 417</td>
+            </tr>
+            <tr>
+                <td class="posicao">5</td>
+                <td>Paraná</td>
+                <td class="populacao">11 443 208</td>
+            
+
+            </tr>
+            <tr>
+                <td class="posicao">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="populacao">10 880 506</td>
+            </tr>
+            <tr>
+                <td class="posicao">7</td>
+                <td>Pernambuco</td>
+                <td class="populacao">9 058 155</td>
+            </tr>
+            <tr>
+                <td class="posicao">8</td>
+                <td>Ceará</td>
+                <td class="populacao">8 791 688</td>
+            </tr>
+            <tr>
+                <td class="posicao">9</td>
+                <td>Pará</td>
+                <td class="populacao">8 116 132</td>
+
+
+            </tr>
+            <tr>
+                <td class="posicao">10</td>
+                <td>Santa Catarina</td>
+                <td class="populacao">7 609 601</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th>Total de Habitantes </td>
+                <td class="populacao">203 062 512	</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
