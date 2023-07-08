@@ -34,17 +34,28 @@
             text-align: right;
 
         }
+
+        caption {
+            background-color: grey;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
         
     </Style>
 </head>
 <body>
     <h1>Uso de Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <td><strong>Posição</strong></td>
-                <td><strong>Unidade Federativa</strong></td>
-                <td><strong>População</strong></td>
+                <th scope="col"><strong>Posição</strong></td>
+                <th scope="col"><strong>Unidade Federativa</strong></td>
+                <th scope="col" style="width: 90px;"><strong>População</strong></td>
 
             </tr>
         </thead>
@@ -108,7 +119,7 @@
         <tfoot>
             <tr>
                 <td></td>
-                <th>Total de Habitantes </td>
+                <th scope="row">Total de Habitantes </th>
                 <td class="populacao">203 062 512	</td>
             </tr>
 
